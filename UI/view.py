@@ -25,7 +25,7 @@ class View(ft.UserControl):
 
 
         self._ddGenre = ft.Dropdown(label="Genere", width=250, on_change=self._controller._choiceDDGenre)  #va messo
-        self._controller.fillDDGenre()
+        self._controller.fillDDGenre()   #aggiungi
         self._btnCreaGrafo = ft.ElevatedButton(text="Crea Grafo",
                                                on_click=self._controller.handleCreaGrafo, width=250)
 

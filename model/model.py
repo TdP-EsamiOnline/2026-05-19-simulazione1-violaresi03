@@ -7,8 +7,7 @@ class Model:
         #
 
 
-   # self._graph.add_edge("A", "B")  # arco da A verso B
-    #self._graph.add_edge("B", "C", weight=5)  # arco da B verso C con peso
+
 
 
     def getAllGenre(self):
