@@ -90,7 +90,5 @@ class Model:
         return uscenti - entranti
 
     def getArtistaPiuInfluente(self):
-
         migliore = max(self._graph.nodes, key=self.getInfluenza)
-
         return migliore, self.getInfluenza(migliore)

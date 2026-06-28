@@ -29,7 +29,7 @@ class Controller:
 
         self._view.update_page()
 
-
+#GRAFO
     def handleCreaGrafo(self, e):
         print("Crea Grafo cliccato")
         genre = self._choiceGenre  # il grafo si crea a partire dalla selezione di un anno da parte dell'utente
